@@ -1,5 +1,5 @@
 const micro = require('micro');
-const replies = require('./replies');
+const replies = require('./src/replies');
 
 const server = micro(async (req, res) => {
   if (req.method !== 'POST') {
